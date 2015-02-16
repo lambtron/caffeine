@@ -1,5 +1,5 @@
 {
-  "name": "caffeine",
+  "name": "caffeinejs",
   "version": "0.0.1",
   "description": "Lightweight library for mobile web browsers to prevent phones from sleeping.",
   "main": "lib/index.js",
@@ -18,7 +18,8 @@
     "mobile",
     "web",
     "safari",
-    "chrome"
+    "chrome",
+    "caffeine"
   ],
   "author": {
     "name": "Andy Jiang",
