@@ -2,29 +2,34 @@
 
 > Lightweight library for mobile web browsers to prevent phones from sleeping.
 
-## Usage
+## Installation
 
-Just link `caffeine.js` in the HTML and you're set.
+Copy the file ./lib/caffeine.js or the minified version to your web server and then link it in your HTML:
 
 ```HTML
-<html>
-<head>
-  <title>Website</title>
-  <script type="text/javascript" src="caffeine.min.js"></script>
-</head>
-<body>
-    Hello, world.
-</body>
-</html>
+<script type="text/javascript" src="caffeine.min.js"></script>
+```
+
+## Usage
+
+At the bottom of your document after including caffeine.js, add the following:
+
+```HTML
+<script>
+  caffeine.start(); // keep phone awake
+
+  caffeine.stop();  // allow phone to sleep
+</script>
 ```
 
 Or with [browserify](http://browserify.org/), your pre-build js file would look like:
 
 ```javascript
 var caffeine = require('caffeine');
-caffeine();
 
-// Do stuff.
+caffeine.start(); // keep phone awake
+
+caffeine.stop();  // allow phone to sleep
 ```
 
 ## Supported Platforms

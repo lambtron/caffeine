@@ -1,8 +1,8 @@
 {
   "name": "caffeinejs",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Lightweight library for mobile web browsers to prevent phones from sleeping.",
-  "main": "lib/index.js",
+  "main": "lib/caffeine.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/lambtron/caffeine.git"
