@@ -1,6 +1,6 @@
 {
   "name": "caffeinejs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Lightweight library for mobile web browsers to prevent phones from sleeping.",
   "main": "lib/index.js",
   "repository": {
