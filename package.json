@@ -1,0 +1,33 @@
+{
+  "name": "caffeine",
+  "version": "0.0.1",
+  "description": "Lightweight library for mobile web browsers to prevent phones from sleeping.",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lambtron/caffeine.git"
+  },
+  "keywords": [
+    "sleep",
+    "awake",
+    "idle",
+    "persist",
+    "prevent",
+    "on",
+    "off",
+    "mobile",
+    "web",
+    "safari",
+    "chrome"
+  ],
+  "author": {
+    "name": "Andy Jiang",
+    "email": "andyjiang@gmail.com",
+    "url": "http://www.andyjiang.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lambtron/caffeine/issues"
+  },
+  "homepage": "https://github.com/lambtron/caffeine"
+}
